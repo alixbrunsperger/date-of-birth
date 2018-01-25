@@ -4,7 +4,7 @@ import './challenge.css';
 
 const DATE_FORMAT = 'DD.MM.YYYY';
 
-class App extends Component {
+export default class Challenge extends Component {
     constructor(){
         super();
         this.state = {
@@ -62,5 +62,3 @@ class App extends Component {
         );
     }
 }
-
-export default App;
